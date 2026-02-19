@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "VitaWeave",
+    "slug": "vitaweave",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assests/icon.png",
+    "scheme": "vitaweave",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitaweave.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assests/icon.png",
+        "backgroundColor": "#0891b2"
+      },
+      "package": "com.vitaweave.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assests/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
